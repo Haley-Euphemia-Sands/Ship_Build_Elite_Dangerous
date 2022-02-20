@@ -1,0 +1,665 @@
+{
+  "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+  "name": "current Orielle Celestial",
+  "ship": "Anaconda",
+  "references": [
+    {
+      "name": "Coriolis.io",
+      "url": "https://coriolis.io/outfit/anaconda?code=A0putsFklndCsxf5--------0202020202020202163c4i11040s0s-3xv62i3w-.Iw1%2BgDNOSfWHUQ%3D%3D.AwRm4iWnbNKIkA%3D%3D.H4sIAAAAAAAAA2P8Z8%2FAwPCXEUhwfAGS%2FDz%2F%2Fv8X28DCwPCf%2BZ8USIoVSPCr%2FPr%2FX2gHNwODyHphBgaJO0DB%2F0r%2FYmFahS6wMzCYvmAGiv4HcgHrZ4MKVQAAAA%3D%3D&bn=current%20Orielle%20Celestial",
+      "code": "A0putsFklndCsxf5--------0202020202020202163c4i11040s0s-3xv62i3w-.Iw1+gDNOSfWHUQ==.AwRm4iWnbNKIkA==.H4sIAAAAAAAAA2P8Z8/AwPCXEUhwfAGS/Dz//v8X28DCwPCf+Z8USIoVSPCr/Pr/X2gHNwODyHphBgaJO0DB/0r/YmFahS6wMzCYvmAGiv4HcgHrZ4MKVQAAAA==",
+      "shipId": "anaconda"
+    }
+  ],
+  "components": {
+    "standard": {
+      "bulkheads": "Lightweight Alloy",
+      "cargoHatch": {
+        "enabled": true,
+        "priority": 1
+      },
+      "powerPlant": {
+        "class": 8,
+        "rating": "A",
+        "enabled": true,
+        "priority": 2,
+        "modifications": {
+          "eff": 500,
+          "integrity": -500,
+          "pgen": 1200
+        },
+        "blueprint": {
+          "fdname": "PowerPlant_Boosted",
+          "grades": {
+            "1": {
+              "components": {
+                "Sulphur": 1
+              },
+              "features": {
+                "eff": [
+                  0.05,
+                  0.05
+                ],
+                "integrity": [
+                  -0.05,
+                  -0.05
+                ],
+                "pgen": [
+                  0,
+                  0.12
+                ]
+              },
+              "uuid": "06282764-2821-4604-ad2c-d9b148d562d0"
+            },
+            "2": {
+              "components": {
+                "Conductive Components": 1,
+                "Heat Conduction Wiring": 1
+              },
+              "features": {
+                "eff": [
+                  0.1,
+                  0.1
+                ],
+                "integrity": [
+                  -0.1,
+                  -0.1
+                ],
+                "pgen": [
+                  0.12,
+                  0.19
+                ]
+              },
+              "uuid": "feb49620-2df8-4ec6-9a58-13f986aed81f"
+            },
+            "3": {
+              "components": {
+                "Conductive Components": 1,
+                "Heat Conduction Wiring": 1,
+                "Selenium": 1
+              },
+              "features": {
+                "eff": [
+                  0.15,
+                  0.15
+                ],
+                "integrity": [
+                  -0.15,
+                  -0.15
+                ],
+                "pgen": [
+                  0.19,
+                  0.26
+                ]
+              },
+              "uuid": "9325c166-998d-4ea6-8dab-0aafcec76705"
+            },
+            "4": {
+              "components": {
+                "Cadmium": 1,
+                "Conductive Ceramics": 1,
+                "Heat Dispersion Plate": 1
+              },
+              "features": {
+                "eff": [
+                  0.2,
+                  0.2
+                ],
+                "integrity": [
+                  -0.2,
+                  -0.2
+                ],
+                "pgen": [
+                  0.26,
+                  0.33
+                ]
+              },
+              "uuid": "6dd84c8d-1d21-4bf5-a747-f582ffe49a99"
+            },
+            "5": {
+              "components": {
+                "Chemical Manipulators": 1,
+                "Conductive Ceramics": 1,
+                "Tellurium": 1
+              },
+              "features": {
+                "eff": [
+                  0.25,
+                  0.25
+                ],
+                "integrity": [
+                  -0.25,
+                  -0.25
+                ],
+                "pgen": [
+                  0.33,
+                  0.4
+                ]
+              },
+              "uuid": "f8cee63e-9cdf-43e5-9584-a945d4c57aee"
+            }
+          },
+          "id": 63,
+          "modulename": [
+            "Power plant"
+          ],
+          "name": "Overcharged",
+          "grade": 1
+        }
+      },
+      "thrusters": {
+        "class": 7,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "frameShiftDrive": {
+        "class": 6,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "modifications": {
+          "integrity": -1500,
+          "mass": 3000,
+          "optmass": 5039,
+          "power": 1500
+        },
+        "blueprint": {
+          "fdname": "FSD_LongRange",
+          "grades": {
+            "1": {
+              "components": {
+                "Atypical Disrupted Wake Echoes": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.03,
+                  -0.03
+                ],
+                "mass": [
+                  0.1,
+                  0.1
+                ],
+                "optmass": [
+                  0,
+                  0.15
+                ],
+                "power": [
+                  0.03,
+                  0.03
+                ]
+              },
+              "uuid": "bb67b1a2-7a5b-47bc-8ed8-e949b5e3fb16"
+            },
+            "2": {
+              "components": {
+                "Atypical Disrupted Wake Echoes": 1,
+                "Chemical Processors": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.06,
+                  -0.06
+                ],
+                "mass": [
+                  0.15,
+                  0.15
+                ],
+                "optmass": [
+                  0.15,
+                  0.25
+                ],
+                "power": [
+                  0.06,
+                  0.06
+                ]
+              },
+              "uuid": "74045351-f348-45f5-8798-487211f19520"
+            },
+            "3": {
+              "components": {
+                "Chemical Processors": 1,
+                "Phosphorus": 1,
+                "Strange Wake Solutions": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.09,
+                  -0.09
+                ],
+                "mass": [
+                  0.2,
+                  0.2
+                ],
+                "optmass": [
+                  0.25,
+                  0.35
+                ],
+                "power": [
+                  0.09,
+                  0.09
+                ]
+              },
+              "uuid": "cf196bb9-55a1-457f-893b-84ff2afd4db9"
+            },
+            "4": {
+              "components": {
+                "Chemical Distillery": 1,
+                "Eccentric Hyperspace Trajectories": 1,
+                "Manganese": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.12,
+                  -0.12
+                ],
+                "mass": [
+                  0.25,
+                  0.25
+                ],
+                "optmass": [
+                  0.35,
+                  0.45
+                ],
+                "power": [
+                  0.12,
+                  0.12
+                ]
+              },
+              "uuid": "ecf49fec-32fd-4930-949d-a341bf0fd00c"
+            },
+            "5": {
+              "components": {
+                "Arsenic": 1,
+                "Chemical Manipulators": 1,
+                "Datamined Wake Exceptions": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.15,
+                  -0.15
+                ],
+                "mass": [
+                  0.3,
+                  0.3
+                ],
+                "optmass": [
+                  0.45,
+                  0.55
+                ],
+                "power": [
+                  0.15,
+                  0.15
+                ]
+              },
+              "uuid": "dddd4fd3-bc9a-4c5b-8606-853c63d0f554"
+            }
+          },
+          "id": 26,
+          "modulename": [
+            "Frame shift drive",
+            "FSD"
+          ],
+          "name": "Increased range",
+          "grade": 5
+        }
+      },
+      "lifeSupport": {
+        "class": 5,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "powerDistributor": {
+        "class": 8,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "sensors": {
+        "class": 8,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "fuelTank": {
+        "class": 5,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1
+      }
+    },
+    "hardpoints": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "utility": [
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 2,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 2,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": false,
+        "priority": 2,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": false,
+        "priority": 2,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": false,
+        "priority": 2,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": false,
+        "priority": 2,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": false,
+        "priority": 1,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": false,
+        "priority": 2,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      }
+    ],
+    "internal": [
+      {
+        "class": 7,
+        "rating": "A",
+        "enabled": false,
+        "priority": 1,
+        "group": "Auto Field-Maintenance Unit"
+      },
+      {
+        "class": 6,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fuel Scoop"
+      },
+      {
+        "class": 6,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Generator"
+      },
+      {
+        "class": 6,
+        "rating": "A",
+        "enabled": false,
+        "priority": 1,
+        "group": "Auto Field-Maintenance Unit"
+      },
+      {
+        "class": 5,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 5,
+        "rating": "A",
+        "enabled": false,
+        "priority": 1,
+        "group": "Auto Field-Maintenance Unit"
+      },
+      {
+        "class": 5,
+        "rating": "A",
+        "enabled": false,
+        "priority": 1,
+        "group": "Auto Field-Maintenance Unit"
+      },
+      null,
+      {
+        "class": 1,
+        "rating": "E",
+        "enabled": false,
+        "priority": 1,
+        "group": "Docking Computer",
+        "name": "Advanced Docking Computer"
+      },
+      {
+        "class": 2,
+        "rating": "G",
+        "enabled": true,
+        "priority": 1,
+        "group": "Planetary Vehicle Hangar"
+      },
+      {
+        "class": 1,
+        "rating": "I",
+        "enabled": true,
+        "priority": 1,
+        "group": "Surface Scanner",
+        "name": "Detailed Surface Scanner",
+        "modifications": {
+          "mass": 2000,
+          "proberadius": 1000
+        },
+        "blueprint": {
+          "fdname": "Sensor_Expanded",
+          "grades": {
+            "1": {
+              "components": {
+                "Mechanical Scrap": 1
+              },
+              "features": {
+                "mass": [
+                  0.2,
+                  0.2
+                ],
+                "proberadius": [
+                  0,
+                  0.1
+                ]
+              },
+              "uuid": "d2f404d2-a8b9-4dfb-ae3c-43f0208123cb"
+            },
+            "2": {
+              "components": {
+                "Mechanical Scrap": 1,
+                "Germanium": 1
+              },
+              "features": {
+                "mass": [
+                  0.4,
+                  0.4
+                ],
+                "proberadius": [
+                  0.1,
+                  0.2
+                ]
+              },
+              "uuid": "2a077c82-5671-4c22-b3cb-caff4979c644"
+            },
+            "3": {
+              "components": {
+                "Mechanical Scrap": 1,
+                "Germanium": 1,
+                "Phase Alloys": 1
+              },
+              "features": {
+                "mass": [
+                  0.6,
+                  0.6
+                ],
+                "proberadius": [
+                  0.2,
+                  0.3
+                ]
+              },
+              "uuid": "081990f9-99d3-435a-9428-ad26471576de"
+            },
+            "4": {
+              "components": {
+                "Mechanical Equipment": 1,
+                "Niobium": 1,
+                "Proto Light Alloys": 1
+              },
+              "features": {
+                "mass": [
+                  0.8,
+                  0.8
+                ],
+                "proberadius": [
+                  0.3,
+                  0.4
+                ]
+              },
+              "uuid": "aa10c84d-1409-48d5-ac02-d0a100d27555"
+            },
+            "5": {
+              "components": {
+                "Mechanical Components": 1,
+                "Tin": 1,
+                "Proto Radiolic Alloys": 1
+              },
+              "features": {
+                "mass": [
+                  1,
+                  1
+                ],
+                "proberadius": [
+                  0.4,
+                  0.5
+                ]
+              },
+              "uuid": "ea7dfe28-95d0-4939-bcf2-282dbed7d80f\n"
+            }
+          },
+          "id": 93,
+          "modulename": [
+            "Detailed surface scanner",
+            "DSS"
+          ],
+          "name": "Expanded Probe Scanning Radius",
+          "grade": 1
+        }
+      },
+      {
+        "class": 1,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Supercruise Assist",
+        "name": "Supercruise Assist"
+      },
+      null
+    ]
+  },
+  "stats": {
+    "class": 3,
+    "hullCost": 141889930,
+    "speed": 180,
+    "boost": 240,
+    "boostEnergy": 27,
+    "baseShieldStrength": 350,
+    "baseArmour": 525,
+    "heatCapacity": 334,
+    "hardness": 65,
+    "hullMass": 400,
+    "masslock": 23,
+    "pipSpeed": 0.14,
+    "fighterHangars": 1,
+    "pitch": 25,
+    "roll": 60,
+    "yaw": 10,
+    "crew": 3,
+    "reserveFuelCapacity": 1.07,
+    "moduleCostMultiplier": 1,
+    "fuelCapacity": 32,
+    "cargoCapacity": 32,
+    "passengerCapacity": 0,
+    "ladenMass": 796.4,
+    "armour": 945,
+    "shield": 396.96,
+    "shieldCells": 0,
+    "totalCost": 415878830,
+    "unladenMass": 732.4,
+    "totalDpe": 0,
+    "totalAbsDpe": 0,
+    "totalExplDpe": 0,
+    "totalKinDpe": 0,
+    "totalThermDpe": 0,
+    "totalDps": 0,
+    "totalAbsDps": 0,
+    "totalExplDps": 0,
+    "totalKinDps": 0,
+    "totalThermDps": 0,
+    "totalSDps": 0,
+    "totalAbsSDps": 0,
+    "totalExplSDps": 0,
+    "totalKinSDps": 0,
+    "totalThermSDps": 0,
+    "totalEps": 0,
+    "totalHps": 0,
+    "shieldExplRes": 0.5,
+    "shieldKinRes": 0.4,
+    "shieldThermRes": -0.2,
+    "hullExplRes": -0.4,
+    "hullKinRes": -0.2,
+    "hullThermRes": 0,
+    "powerAvailable": 40.32,
+    "powerRetracted": 15.04,
+    "powerDeployed": 15.04,
+    "unladenRange": 44.52,
+    "fullTankRange": 43.12,
+    "ladenRange": 41.39,
+    "unladenFastestRange": 175.25,
+    "ladenFastestRange": 168.11,
+    "maxJumpCount": 4,
+    "modulearmour": 0,
+    "moduleprotection": 0,
+    "hullCausRes": 0,
+    "topSpeed": 190.8,
+    "topBoost": 254.4,
+    "topPitch": 26.5,
+    "topRoll": 63.6,
+    "topYaw": 10.6
+  }
+}

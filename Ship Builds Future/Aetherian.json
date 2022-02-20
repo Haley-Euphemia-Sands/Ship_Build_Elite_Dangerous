@@ -1,0 +1,688 @@
+{
+  "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+  "name": "Aetherian",
+  "ship": "Beluga Liner",
+  "references": [
+    {
+      "name": "Coriolis.io",
+      "url": "https://coriolis.io/outfit/beluga?code=A0pntpFplCdssnf7-----------mnmnmnmnmmmdmcmbmbmb0200.Iw18ZpA%3D.IwBjOV2nZo%3D%3D.H4sIAAAAAAAAA2P8Z8%2FAwPCXFUj8qQcSHEc4GRj4bb79%2Fy%2B2gJ%2BB4T%2FTPzG4fDGQ4Ff59f%2B%2FiNzv%2F%2F9FQfISG1gYGJQLxIEqmf9JwVVWwFQK7eBmYBCpEQWqvAOU%2Bf8fKAEA%2B8pDWXMAAAA%3D&bn=Aetherian",
+      "code": "A0pntpFplCdssnf7-----------mnmnmnmnmmmdmcmbmbmb0200.Iw18ZpA=.IwBjOV2nZo==.H4sIAAAAAAAAA2P8Z8/AwPCXFUj8qQcSHEc4GRj4bb79/y+2gJ+B4T/TPzG4fDGQ4Ff59f+/iNzv//9FQfISG1gYGJQLxIEqmf9JwVVWwFQK7eBmYBCpEQWqvAOU+f8fKAEA+8pDWXMAAAA=",
+      "shipId": "beluga"
+    }
+  ],
+  "components": {
+    "standard": {
+      "bulkheads": "Lightweight Alloy",
+      "cargoHatch": {
+        "enabled": true,
+        "priority": 2
+      },
+      "powerPlant": {
+        "class": 6,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "modifications": {
+          "eff": 2500,
+          "integrity": -2500,
+          "pgen": 4000
+        },
+        "blueprint": {
+          "fdname": "PowerPlant_Boosted",
+          "grades": {
+            "1": {
+              "components": {
+                "Sulphur": 1
+              },
+              "features": {
+                "eff": [
+                  0.05,
+                  0.05
+                ],
+                "integrity": [
+                  -0.05,
+                  -0.05
+                ],
+                "pgen": [
+                  0,
+                  0.12
+                ]
+              },
+              "uuid": "06282764-2821-4604-ad2c-d9b148d562d0"
+            },
+            "2": {
+              "components": {
+                "Conductive Components": 1,
+                "Heat Conduction Wiring": 1
+              },
+              "features": {
+                "eff": [
+                  0.1,
+                  0.1
+                ],
+                "integrity": [
+                  -0.1,
+                  -0.1
+                ],
+                "pgen": [
+                  0.12,
+                  0.19
+                ]
+              },
+              "uuid": "feb49620-2df8-4ec6-9a58-13f986aed81f"
+            },
+            "3": {
+              "components": {
+                "Conductive Components": 1,
+                "Heat Conduction Wiring": 1,
+                "Selenium": 1
+              },
+              "features": {
+                "eff": [
+                  0.15,
+                  0.15
+                ],
+                "integrity": [
+                  -0.15,
+                  -0.15
+                ],
+                "pgen": [
+                  0.19,
+                  0.26
+                ]
+              },
+              "uuid": "9325c166-998d-4ea6-8dab-0aafcec76705"
+            },
+            "4": {
+              "components": {
+                "Cadmium": 1,
+                "Conductive Ceramics": 1,
+                "Heat Dispersion Plate": 1
+              },
+              "features": {
+                "eff": [
+                  0.2,
+                  0.2
+                ],
+                "integrity": [
+                  -0.2,
+                  -0.2
+                ],
+                "pgen": [
+                  0.26,
+                  0.33
+                ]
+              },
+              "uuid": "6dd84c8d-1d21-4bf5-a747-f582ffe49a99"
+            },
+            "5": {
+              "components": {
+                "Chemical Manipulators": 1,
+                "Conductive Ceramics": 1,
+                "Tellurium": 1
+              },
+              "features": {
+                "eff": [
+                  0.25,
+                  0.25
+                ],
+                "integrity": [
+                  -0.25,
+                  -0.25
+                ],
+                "pgen": [
+                  0.33,
+                  0.4
+                ]
+              },
+              "uuid": "f8cee63e-9cdf-43e5-9584-a945d4c57aee"
+            }
+          },
+          "id": 63,
+          "modulename": [
+            "Power plant"
+          ],
+          "name": "Overcharged",
+          "grade": 5,
+          "special": {
+            "name": "Stripped Down",
+            "id": 127,
+            "edname": "special_powerplant_lightweight",
+            "uuid": "11b258eb-36d1-4cbc-be04-7fc426ef3121"
+          }
+        }
+      },
+      "thrusters": {
+        "class": 7,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "modifications": {
+          "integrity": -1500,
+          "optmass": -1250,
+          "optmul": 4000,
+          "power": 1200,
+          "thermload": 6000
+        },
+        "blueprint": {
+          "fdname": "Engine_Dirty",
+          "grades": {
+            "1": {
+              "components": {
+                "Specialised Legacy Firmware": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.03,
+                  -0.03
+                ],
+                "optmass": [
+                  -0.025,
+                  -0.025
+                ],
+                "optmul": [
+                  0,
+                  0.12
+                ],
+                "power": [
+                  0.04,
+                  0.04
+                ],
+                "thermload": [
+                  0.2,
+                  0.2
+                ]
+              },
+              "uuid": "bbdea125-dd2b-4031-8698-56c922df3b76"
+            },
+            "2": {
+              "components": {
+                "Mechanical Equipment": 1,
+                "Specialised Legacy Firmware": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.06,
+                  -0.06
+                ],
+                "optmass": [
+                  -0.05,
+                  -0.05
+                ],
+                "optmul": [
+                  0.12,
+                  0.19
+                ],
+                "power": [
+                  0.06,
+                  0.06
+                ],
+                "thermload": [
+                  0.3,
+                  0.3
+                ]
+              },
+              "uuid": "d3ccba04-e0f5-40c3-a6f8-a038d5e5b4bf"
+            },
+            "3": {
+              "components": {
+                "Chromium": 1,
+                "Mechanical Components": 1,
+                "Specialised Legacy Firmware": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.09,
+                  -0.09
+                ],
+                "optmass": [
+                  -0.075,
+                  -0.075
+                ],
+                "optmul": [
+                  0.19,
+                  0.26
+                ],
+                "power": [
+                  0.08,
+                  0.08
+                ],
+                "thermload": [
+                  0.4,
+                  0.4
+                ]
+              },
+              "uuid": "60091d1f-38a9-4d62-bbc0-6332e03c7f3d"
+            },
+            "4": {
+              "components": {
+                "Configurable Components": 1,
+                "Modified Consumer Firmware": 1,
+                "Selenium": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.12,
+                  -0.12
+                ],
+                "optmass": [
+                  -0.1,
+                  -0.1
+                ],
+                "optmul": [
+                  0.26,
+                  0.33
+                ],
+                "power": [
+                  0.1,
+                  0.1
+                ],
+                "thermload": [
+                  0.5,
+                  0.5
+                ]
+              },
+              "uuid": "7355e32e-b850-4428-8279-66f234f59c6a"
+            },
+            "5": {
+              "components": {
+                "Cadmium": 1,
+                "Cracked Industrial Firmware": 1,
+                "Pharmaceutical Isolators": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.15,
+                  -0.15
+                ],
+                "optmass": [
+                  -0.125,
+                  -0.125
+                ],
+                "optmul": [
+                  0.33,
+                  0.4
+                ],
+                "power": [
+                  0.12,
+                  0.12
+                ],
+                "thermload": [
+                  0.6,
+                  0.6
+                ]
+              },
+              "uuid": "92514d80-4513-489e-b85f-1b7010b3ae0f"
+            }
+          },
+          "id": 22,
+          "modulename": [
+            "Thrusters",
+            "Engines"
+          ],
+          "name": "Dirty",
+          "grade": 5,
+          "special": {
+            "name": "Drive Distributors",
+            "id": 115,
+            "edname": "special_engine_haulage",
+            "uuid": "bd3c1991-370e-4b9d-b8cd-d5dec3260647"
+          }
+        }
+      },
+      "frameShiftDrive": {
+        "class": 7,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "modifications": {
+          "integrity": -1500,
+          "mass": 3000,
+          "optmass": 5500,
+          "power": 1500
+        },
+        "blueprint": {
+          "fdname": "FSD_LongRange",
+          "grades": {
+            "1": {
+              "components": {
+                "Atypical Disrupted Wake Echoes": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.03,
+                  -0.03
+                ],
+                "mass": [
+                  0.1,
+                  0.1
+                ],
+                "optmass": [
+                  0,
+                  0.15
+                ],
+                "power": [
+                  0.03,
+                  0.03
+                ]
+              },
+              "uuid": "bb67b1a2-7a5b-47bc-8ed8-e949b5e3fb16"
+            },
+            "2": {
+              "components": {
+                "Atypical Disrupted Wake Echoes": 1,
+                "Chemical Processors": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.06,
+                  -0.06
+                ],
+                "mass": [
+                  0.15,
+                  0.15
+                ],
+                "optmass": [
+                  0.15,
+                  0.25
+                ],
+                "power": [
+                  0.06,
+                  0.06
+                ]
+              },
+              "uuid": "74045351-f348-45f5-8798-487211f19520"
+            },
+            "3": {
+              "components": {
+                "Chemical Processors": 1,
+                "Phosphorus": 1,
+                "Strange Wake Solutions": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.09,
+                  -0.09
+                ],
+                "mass": [
+                  0.2,
+                  0.2
+                ],
+                "optmass": [
+                  0.25,
+                  0.35
+                ],
+                "power": [
+                  0.09,
+                  0.09
+                ]
+              },
+              "uuid": "cf196bb9-55a1-457f-893b-84ff2afd4db9"
+            },
+            "4": {
+              "components": {
+                "Chemical Distillery": 1,
+                "Eccentric Hyperspace Trajectories": 1,
+                "Manganese": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.12,
+                  -0.12
+                ],
+                "mass": [
+                  0.25,
+                  0.25
+                ],
+                "optmass": [
+                  0.35,
+                  0.45
+                ],
+                "power": [
+                  0.12,
+                  0.12
+                ]
+              },
+              "uuid": "ecf49fec-32fd-4930-949d-a341bf0fd00c"
+            },
+            "5": {
+              "components": {
+                "Arsenic": 1,
+                "Chemical Manipulators": 1,
+                "Datamined Wake Exceptions": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.15,
+                  -0.15
+                ],
+                "mass": [
+                  0.3,
+                  0.3
+                ],
+                "optmass": [
+                  0.45,
+                  0.55
+                ],
+                "power": [
+                  0.15,
+                  0.15
+                ]
+              },
+              "uuid": "dddd4fd3-bc9a-4c5b-8606-853c63d0f554"
+            }
+          },
+          "id": 26,
+          "modulename": [
+            "Frame shift drive",
+            "FSD"
+          ],
+          "name": "Increased range",
+          "grade": 5,
+          "special": {
+            "name": "Mass Manager",
+            "id": 120,
+            "edname": "special_fsd_heavy",
+            "uuid": "4d7d30c3-970b-4c6e-a507-89ac7e6441bd"
+          }
+        }
+      },
+      "lifeSupport": {
+        "class": 8,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "powerDistributor": {
+        "class": 6,
+        "rating": "D",
+        "enabled": true,
+        "priority": 2
+      },
+      "sensors": {
+        "class": 5,
+        "rating": "D",
+        "enabled": true,
+        "priority": 2
+      },
+      "fuelTank": {
+        "class": 7,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1
+      }
+    },
+    "hardpoints": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "utility": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "internal": [
+      {
+        "class": 6,
+        "rating": "B",
+        "enabled": true,
+        "priority": 1,
+        "group": "Luxury Passenger Cabin"
+      },
+      {
+        "class": 6,
+        "rating": "B",
+        "enabled": true,
+        "priority": 1,
+        "group": "Luxury Passenger Cabin"
+      },
+      {
+        "class": 6,
+        "rating": "B",
+        "enabled": true,
+        "priority": 1,
+        "group": "Luxury Passenger Cabin"
+      },
+      {
+        "class": 6,
+        "rating": "B",
+        "enabled": true,
+        "priority": 1,
+        "group": "Luxury Passenger Cabin"
+      },
+      {
+        "class": 5,
+        "rating": "B",
+        "enabled": true,
+        "priority": 1,
+        "group": "Luxury Passenger Cabin"
+      },
+      {
+        "class": 5,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Economy Class Passenger Cabin"
+      },
+      {
+        "class": 4,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Economy Class Passenger Cabin"
+      },
+      {
+        "class": 3,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Economy Class Passenger Cabin"
+      },
+      {
+        "class": 3,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Economy Class Passenger Cabin"
+      },
+      {
+        "class": 3,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Economy Class Passenger Cabin"
+      },
+      {
+        "class": 3,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 1,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      }
+    ]
+  },
+  "stats": {
+    "class": 3,
+    "hullCost": 79654610,
+    "speed": 200,
+    "boost": 280,
+    "boostEnergy": 19,
+    "baseShieldStrength": 280,
+    "heatCapacity": 283,
+    "baseArmour": 280,
+    "hardness": 60,
+    "hullMass": 950,
+    "masslock": 18,
+    "pipSpeed": 0.11,
+    "luxuryCabins": 1,
+    "fighterHangars": 1,
+    "pitch": 25,
+    "roll": 60,
+    "yaw": 17,
+    "crew": 3,
+    "reserveFuelCapacity": 0.81,
+    "moduleCostMultiplier": 1,
+    "fuelCapacity": 128,
+    "cargoCapacity": 10,
+    "passengerCapacity": 72,
+    "ladenMass": 1599.4,
+    "armour": 504,
+    "shield": 0,
+    "shieldCells": 0,
+    "totalCost": 208305539,
+    "unladenMass": 1461.4,
+    "totalDpe": 0,
+    "totalAbsDpe": 0,
+    "totalExplDpe": 0,
+    "totalKinDpe": 0,
+    "totalThermDpe": 0,
+    "totalDps": 0,
+    "totalAbsDps": 0,
+    "totalExplDps": 0,
+    "totalKinDps": 0,
+    "totalThermDps": 0,
+    "totalSDps": 0,
+    "totalAbsSDps": 0,
+    "totalExplSDps": 0,
+    "totalKinSDps": 0,
+    "totalThermSDps": 0,
+    "totalEps": 0,
+    "totalHps": 0,
+    "shieldExplRes": 0,
+    "shieldKinRes": 0,
+    "shieldThermRes": 0,
+    "hullExplRes": -0.4,
+    "hullKinRes": -0.2,
+    "hullThermRes": 0,
+    "powerAvailable": 26.46,
+    "powerRetracted": 13.73,
+    "powerDeployed": 13.73,
+    "unladenRange": 37.24,
+    "fullTankRange": 34.54,
+    "ladenRange": 34.33,
+    "unladenFastestRange": 358.63,
+    "ladenFastestRange": 356.3,
+    "maxJumpCount": 10,
+    "modulearmour": 0,
+    "moduleprotection": 0,
+    "hullCausRes": 0,
+    "topSpeed": 296.24,
+    "topBoost": 414.74,
+    "topPitch": 37.03,
+    "topRoll": 88.87,
+    "topYaw": 25.18
+  }
+}

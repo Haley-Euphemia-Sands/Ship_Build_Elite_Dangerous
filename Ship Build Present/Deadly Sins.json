@@ -1,0 +1,356 @@
+{
+  "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+  "name": "Deadly Sins Current",
+  "ship": "Type-10 Defender",
+  "references": [
+    {
+      "name": "Coriolis.io",
+      "url": "https://coriolis.io/outfit/type_10_defender?code=A0pwtqFplodusjf60o1f1f1f28281c0q250404040403030m0307fh4f2d2b2b2t27012d2d3w.Iw18ZXEA.AwRjCZRdzMBY4nsVb0dUA%3D%3D%3D.&bn=Deadly%20Sins%20Current",
+      "code": "A0pwtqFplodusjf60o1f1f1f28281c0q250404040403030m0307fh4f2d2b2b2t27012d2d3w.Iw18ZXEA.AwRjCZRdzMBY4nsVb0dUA===.",
+      "shipId": "type_10_defender"
+    }
+  ],
+  "components": {
+    "standard": {
+      "bulkheads": "Lightweight Alloy",
+      "cargoHatch": {
+        "enabled": true,
+        "priority": 1
+      },
+      "powerPlant": {
+        "class": 8,
+        "rating": "C",
+        "enabled": true,
+        "priority": 2
+      },
+      "thrusters": {
+        "class": 7,
+        "rating": "B",
+        "enabled": true,
+        "priority": 2
+      },
+      "frameShiftDrive": {
+        "class": 7,
+        "rating": "A",
+        "enabled": true,
+        "priority": 2
+      },
+      "lifeSupport": {
+        "class": 5,
+        "rating": "E",
+        "enabled": true,
+        "priority": 3
+      },
+      "powerDistributor": {
+        "class": 7,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1
+      },
+      "sensors": {
+        "class": 4,
+        "rating": "E",
+        "enabled": true,
+        "priority": 2
+      },
+      "fuelTank": {
+        "class": 6,
+        "rating": "C",
+        "enabled": true,
+        "priority": 2
+      }
+    },
+    "hardpoints": [
+      {
+        "class": 3,
+        "rating": "D",
+        "enabled": true,
+        "priority": 3,
+        "group": "Beam Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 3,
+        "rating": "F",
+        "enabled": true,
+        "priority": 3,
+        "group": "Pulse Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 3,
+        "rating": "F",
+        "enabled": true,
+        "priority": 2,
+        "group": "Pulse Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 3,
+        "rating": "F",
+        "enabled": true,
+        "priority": 2,
+        "group": "Pulse Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 2,
+        "rating": "F",
+        "enabled": true,
+        "priority": 2,
+        "group": "Multi-cannon",
+        "mount": "Turret"
+      },
+      {
+        "class": 2,
+        "rating": "F",
+        "enabled": true,
+        "priority": 2,
+        "group": "Multi-cannon",
+        "mount": "Turret"
+      },
+      {
+        "class": 2,
+        "rating": "F",
+        "enabled": true,
+        "priority": 5,
+        "group": "Pulse Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 1,
+        "rating": "F",
+        "enabled": true,
+        "priority": 2,
+        "group": "Beam Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 1,
+        "rating": "G",
+        "enabled": true,
+        "priority": 2,
+        "group": "Multi-cannon",
+        "mount": "Turret"
+      }
+    ],
+    "utility": [
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 2,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 2,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 5,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 1,
+        "group": "Point Defence",
+        "name": "Point Defence"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 1,
+        "group": "Point Defence",
+        "name": "Point Defence"
+      },
+      {
+        "class": 0,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Kill Warrant Scanner"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 1,
+        "group": "Point Defence",
+        "name": "Point Defence"
+      }
+    ],
+    "internal": [
+      {
+        "class": 8,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 7,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fighter Hangar"
+      },
+      {
+        "class": 6,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Generator"
+      },
+      {
+        "class": 5,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Hull Reinforcement Package"
+      },
+      {
+        "class": 4,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Hull Reinforcement Package"
+      },
+      {
+        "class": 4,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Hull Reinforcement Package"
+      },
+      {
+        "class": 3,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fuel Scoop"
+      },
+      {
+        "class": 2,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Hull Reinforcement Package"
+      },
+      {
+        "class": 2,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 5,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Hull Reinforcement Package"
+      },
+      {
+        "class": 5,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Hull Reinforcement Package"
+      },
+      {
+        "class": 1,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Supercruise Assist",
+        "name": "Supercruise Assist"
+      }
+    ]
+  },
+  "stats": {
+    "class": 3,
+    "hullCost": 121454652,
+    "speed": 179,
+    "boost": 219,
+    "boostEnergy": 19,
+    "baseShieldStrength": 320,
+    "baseArmour": 580,
+    "hardness": 75,
+    "hullMass": 1200,
+    "heatCapacity": 335,
+    "masslock": 26,
+    "pipSpeed": 0.04,
+    "fighterHangars": 1,
+    "pitch": 20,
+    "roll": 20,
+    "yaw": 8,
+    "crew": 3,
+    "reserveFuelCapacity": 0.77,
+    "moduleCostMultiplier": 1,
+    "fuelCapacity": 64,
+    "cargoCapacity": 260,
+    "passengerCapacity": 0,
+    "ladenMass": 2152.8,
+    "armour": 3064,
+    "shield": 408.15,
+    "shieldCells": 0,
+    "totalCost": 268213073,
+    "unladenMass": 1828.8,
+    "totalDpe": 90.81,
+    "totalAbsDpe": 0,
+    "totalExplDpe": 0,
+    "totalKinDpe": 57.67,
+    "totalThermDpe": 33.14,
+    "totalDps": 72.96,
+    "totalAbsDps": 0,
+    "totalExplDps": 0,
+    "totalKinDps": 18.63,
+    "totalThermDps": 54.33,
+    "totalSDps": 68.81,
+    "totalAbsSDps": 0,
+    "totalExplSDps": 0,
+    "totalKinSDps": 14.48,
+    "totalThermSDps": 54.33,
+    "totalEps": 11.33,
+    "totalHps": 14.45,
+    "shieldExplRes": 0.5,
+    "shieldKinRes": 0.4,
+    "shieldThermRes": -0.2,
+    "hullExplRes": -0.23,
+    "hullKinRes": -0.06,
+    "hullThermRes": 0.12,
+    "powerAvailable": 30,
+    "powerRetracted": 22.46,
+    "powerDeployed": 29.45,
+    "unladenRange": 18.5,
+    "fullTankRange": 18,
+    "ladenRange": 15.82,
+    "unladenFastestRange": 91.22,
+    "ladenFastestRange": 80.08,
+    "maxJumpCount": 5,
+    "modulearmour": 0,
+    "moduleprotection": 0,
+    "hullCausRes": 0,
+    "topSpeed": 180.71,
+    "topBoost": 221.09,
+    "topPitch": 20.19,
+    "topRoll": 20.19,
+    "topYaw": 8.08
+  }
+}

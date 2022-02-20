@@ -1,0 +1,150 @@
+{
+  "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+  "name": "Serafina current",
+  "ship": "Imperial Eagle",
+  "references": [
+    {
+      "name": "Coriolis.io",
+      "url": "https://coriolis.io/outfit/imperial_eagle?code=A0p3t5F3l3d8s9f2-----------.Iw19kA%3D%3D.AwRgTMldPEA%3D.&bn=Serafina%20current",
+      "code": "A0p3t5F3l3d8s9f2-----------.Iw19kA==.AwRgTMldPEA=.",
+      "shipId": "imperial_eagle"
+    }
+  ],
+  "components": {
+    "standard": {
+      "bulkheads": "Lightweight Alloy",
+      "cargoHatch": {
+        "enabled": true,
+        "priority": 1
+      },
+      "powerPlant": {
+        "class": 2,
+        "rating": "D",
+        "enabled": true,
+        "priority": 2
+      },
+      "thrusters": {
+        "class": 3,
+        "rating": "A",
+        "enabled": true,
+        "priority": 3
+      },
+      "frameShiftDrive": {
+        "class": 2,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "lifeSupport": {
+        "class": 1,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "powerDistributor": {
+        "class": 2,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "sensors": {
+        "class": 2,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1
+      },
+      "fuelTank": {
+        "class": 2,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1
+      }
+    },
+    "hardpoints": [
+      null,
+      null,
+      null
+    ],
+    "utility": [
+      null
+    ],
+    "internal": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "stats": {
+    "class": 1,
+    "hullCost": 72180,
+    "speed": 300,
+    "boost": 400,
+    "boostEnergy": 8,
+    "baseShieldStrength": 80,
+    "baseArmour": 60,
+    "hardness": 28,
+    "heatCapacity": 163,
+    "hullMass": 50,
+    "masslock": 6,
+    "pipSpeed": 0.08,
+    "pitch": 40,
+    "roll": 100,
+    "yaw": 15,
+    "crew": 1,
+    "reserveFuelCapacity": 0.37,
+    "moduleCostMultiplier": 1,
+    "fuelCapacity": 4,
+    "cargoCapacity": 0,
+    "passengerCapacity": 0,
+    "ladenMass": 65,
+    "armour": 108,
+    "shield": 0,
+    "shieldCells": 0,
+    "totalCost": 602060,
+    "unladenMass": 61,
+    "totalDpe": 0,
+    "totalAbsDpe": 0,
+    "totalExplDpe": 0,
+    "totalKinDpe": 0,
+    "totalThermDpe": 0,
+    "totalDps": 0,
+    "totalAbsDps": 0,
+    "totalExplDps": 0,
+    "totalKinDps": 0,
+    "totalThermDps": 0,
+    "totalSDps": 0,
+    "totalAbsSDps": 0,
+    "totalExplSDps": 0,
+    "totalKinSDps": 0,
+    "totalThermSDps": 0,
+    "totalEps": 0,
+    "totalHps": 0,
+    "shieldExplRes": 0,
+    "shieldKinRes": 0,
+    "shieldThermRes": 0,
+    "hullExplRes": -0.4,
+    "hullKinRes": -0.2,
+    "hullThermRes": 0,
+    "powerAvailable": 7.2,
+    "powerRetracted": 5.45,
+    "powerDeployed": 5.45,
+    "unladenRange": 6.75,
+    "fullTankRange": 6.4,
+    "ladenRange": 6.4,
+    "unladenFastestRange": 44.83,
+    "ladenFastestRange": 44.83,
+    "maxJumpCount": 7,
+    "modulearmour": 0,
+    "moduleprotection": 0,
+    "hullCausRes": 0,
+    "topSpeed": 342.35,
+    "topBoost": 456.47,
+    "topPitch": 45.65,
+    "topRoll": 114.12,
+    "topYaw": 17.12
+  }
+}
