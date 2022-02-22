@@ -5,8 +5,8 @@
   "references": [
     {
       "name": "Coriolis.io",
-      "url": "https://coriolis.io/outfit/beluga?code=A0pntpFplCdssnf7-----------mnmnmnmnmmmdmcmbmbmb0200.Iw18ZpA%3D.IwBjOV2nZo%3D%3D.H4sIAAAAAAAAA2P8Z8%2FAwPCXFUj8qQcSHEc4GRj4bb79%2Fy%2B2gJ%2BB4T%2FTPzG4fDGQ4Ff59f%2B%2FiNzv%2F%2F9FQfISG1gYGJQLxIEqmf9JwVVWwFQK7eBmYBCpEQWqvAOU%2Bf8fKAEA%2B8pDWXMAAAA%3D&bn=Aetherian",
-      "code": "A0pntpFplCdssnf7-----------mnmnmnmnmmmdmcmbmbmb0200.Iw18ZpA=.IwBjOV2nZo==.H4sIAAAAAAAAA2P8Z8/AwPCXFUj8qQcSHEc4GRj4bb79/y+2gJ+B4T/TPzG4fDGQ4Ff59f+/iNzv//9FQfISG1gYGJQLxIEqmf9JwVVWwFQK7eBmYBCpEQWqvAOU+f8fKAEA+8pDWXMAAAA=",
+      "url": "https://coriolis.io/outfit/beluga?code=A0pntpFplCdssnf7-----020404040404mnmnmnmnmmp2mcmbmbmb0200.Iw18ZpA%3D.IwBjOV2nZo%3D%3D.H4sIAAAAAAAAA2P8Z8%2FAwPCXFUj8qQcSHEc4GRj4bb79%2Fy%2B2gJ%2BB4T%2FTPzG4fDGQ4Ff59f%2B%2FiNzv%2F%2F9FQfISG1gYGJQLxIEqmf9JwVVWwFQK7eBmYBCpEQWqvAOU%2Bf8fKAEA%2B8pDWXMAAAA%3D&bn=Aetherian",
+      "code": "A0pntpFplCdssnf7-----020404040404mnmnmnmnmmp2mcmbmbmb0200.Iw18ZpA=.IwBjOV2nZo==.H4sIAAAAAAAAA2P8Z8/AwPCXFUj8qQcSHEc4GRj4bb79/y+2gJ+B4T/TPzG4fDGQ4Ff59f+/iNzv//9FQfISG1gYGJQLxIEqmf9JwVVWwFQK7eBmYBCpEQWqvAOU+f8fKAEA+8pDWXMAAAA=",
       "shipId": "beluga"
     }
   ],
@@ -520,12 +520,49 @@
       null
     ],
     "utility": [
-      null,
-      null,
-      null,
-      null,
-      null,
-      null
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 1,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Booster"
+      },
+      {
+        "class": 0,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Shield Booster"
+      }
     ],
     "internal": [
       {
@@ -565,10 +602,10 @@
       },
       {
         "class": 5,
-        "rating": "E",
+        "rating": "A",
         "enabled": true,
         "priority": 1,
-        "group": "Economy Class Passenger Cabin"
+        "group": "Prismatic Shield Generator"
       },
       {
         "class": 4,
@@ -637,13 +674,13 @@
     "moduleCostMultiplier": 1,
     "fuelCapacity": 128,
     "cargoCapacity": 10,
-    "passengerCapacity": 72,
-    "ladenMass": 1599.4,
+    "passengerCapacity": 56,
+    "ladenMass": 1638.2,
     "armour": 504,
-    "shield": 0,
+    "shield": 561.17,
     "shieldCells": 0,
-    "totalCost": 208305539,
-    "unladenMass": 1461.4,
+    "totalCost": 217335009,
+    "unladenMass": 1500.2,
     "totalDpe": 0,
     "totalAbsDpe": 0,
     "totalExplDpe": 0,
@@ -661,28 +698,28 @@
     "totalThermSDps": 0,
     "totalEps": 0,
     "totalHps": 0,
-    "shieldExplRes": 0,
-    "shieldKinRes": 0,
-    "shieldThermRes": 0,
+    "shieldExplRes": 0.5,
+    "shieldKinRes": 0.4,
+    "shieldThermRes": -0.2,
     "hullExplRes": -0.4,
     "hullKinRes": -0.2,
     "hullThermRes": 0,
     "powerAvailable": 26.46,
-    "powerRetracted": 13.73,
-    "powerDeployed": 13.73,
-    "unladenRange": 37.24,
-    "fullTankRange": 34.54,
-    "ladenRange": 34.33,
-    "unladenFastestRange": 358.63,
-    "ladenFastestRange": 356.3,
+    "powerRetracted": 25.39,
+    "powerDeployed": 25.39,
+    "unladenRange": 36.29,
+    "fullTankRange": 33.72,
+    "ladenRange": 33.52,
+    "unladenFastestRange": 349.77,
+    "ladenFastestRange": 347.55,
     "maxJumpCount": 10,
     "modulearmour": 0,
     "moduleprotection": 0,
     "hullCausRes": 0,
-    "topSpeed": 296.24,
-    "topBoost": 414.74,
-    "topPitch": 37.03,
-    "topRoll": 88.87,
-    "topYaw": 25.18
+    "topSpeed": 294.65,
+    "topBoost": 412.51,
+    "topPitch": 36.83,
+    "topRoll": 88.4,
+    "topYaw": 25.05
   }
 }
