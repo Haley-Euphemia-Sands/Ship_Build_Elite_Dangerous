@@ -1,0 +1,764 @@
+{
+  "$schema": "https://coriolis.io/schemas/ship-loadout/4.json#",
+  "name": "The Praetoria planned",
+  "ship": "Type-9 Heavy",
+  "references": [
+    {
+      "name": "Coriolis.io",
+      "url": "https://coriolis.io/outfit/type_9_heavy?code=A0pltqFllldqsif61c1c28252502030303070706p1fr030302022o3w.Iw18ZQ%3D%3D.AwRgTGxdK2sMtZQ%3D.H4sIAAAAAAAAA2P6J87AwPCXFUj8KQYS%2FD%2B0GBiEjnAyMChXvPn%2F%2Fz%2FzPym4fAVIXuXX%2F%2F9CO7gZGERqRBkYJO4AZf6z%2FrOGK2oEEpwgRVw8%2F%2F7%2FVywAGq9kIMjAoAoSUwMR%2F%2F8DlQAA8Lnze3gAAAA%3D&bn=The%20Praetoria%20planned",
+      "code": "A0pltqFllldqsif61c1c28252502030303070706p1fr030302022o3w.Iw18ZQ==.AwRgTGxdK2sMtZQ=.H4sIAAAAAAAAA2P6J87AwPCXFUj8KQYS/D+0GBiEjnAyMChXvPn//z/zPym4fAVIXuXX//9CO7gZGERqRBkYJO4AZf6z/rOGK2oEEpwgRVw8//7/VywAGq9kIMjAoAoSUwMR//8DlQAA8Lnze3gAAAA=",
+      "shipId": "type_9_heavy"
+    }
+  ],
+  "components": {
+    "standard": {
+      "bulkheads": "Lightweight Alloy",
+      "cargoHatch": {
+        "enabled": true,
+        "priority": 1
+      },
+      "powerPlant": {
+        "class": 6,
+        "rating": "B",
+        "enabled": true,
+        "priority": 2
+      },
+      "thrusters": {
+        "class": 7,
+        "rating": "B",
+        "enabled": true,
+        "priority": 3,
+        "modifications": {
+          "integrity": 11000,
+          "mass": 2500,
+          "thermload": -5000
+        },
+        "blueprint": {
+          "fdname": "Engine_Reinforced",
+          "grades": {
+            "1": {
+              "components": {
+                "Carbon": 1
+              },
+              "features": {
+                "integrity": [
+                  0,
+                  0.3
+                ],
+                "mass": [
+                  0.05,
+                  0.05
+                ],
+                "thermload": [
+                  -0.1,
+                  -0.1
+                ]
+              },
+              "uuid": "21503395-f165-4340-91c7-07d062895eae"
+            },
+            "2": {
+              "components": {
+                "Heat Conduction Wiring": 1,
+                "Vanadium": 1
+              },
+              "features": {
+                "integrity": [
+                  0.3,
+                  0.5
+                ],
+                "mass": [
+                  0.1,
+                  0.1
+                ],
+                "thermload": [
+                  -0.1,
+                  -0.2
+                ]
+              },
+              "uuid": "452e2359-5804-4de1-94bf-d16c9d512cc4"
+            },
+            "3": {
+              "components": {
+                "Heat Conduction Wiring": 1,
+                "Shielding Sensors": 1,
+                "Vanadium": 1
+              },
+              "features": {
+                "integrity": [
+                  0.5,
+                  0.7
+                ],
+                "mass": [
+                  0.15,
+                  0.15
+                ],
+                "thermload": [
+                  -0.2,
+                  -0.3
+                ]
+              },
+              "uuid": "ae1a71bb-e025-4268-aa7f-fd4063945beb"
+            },
+            "4": {
+              "components": {
+                "Compound Shielding": 1,
+                "Heat Dispersion Plate": 1,
+                "High Density Composites": 1
+              },
+              "features": {
+                "integrity": [
+                  0.7,
+                  0.9
+                ],
+                "mass": [
+                  0.2,
+                  0.2
+                ],
+                "thermload": [
+                  -0.3,
+                  -0.4
+                ]
+              },
+              "uuid": "4bc0b925-dd64-41da-a653-f15acf108f23"
+            },
+            "5": {
+              "components": {
+                "Heat Exchangers": 1,
+                "Imperial Shielding": 1,
+                "Proprietary Composites": 1
+              },
+              "features": {
+                "integrity": [
+                  0.9,
+                  1.1
+                ],
+                "mass": [
+                  0.25,
+                  0.25
+                ],
+                "thermload": [
+                  -0.4,
+                  -0.5
+                ]
+              },
+              "uuid": "88aef454-76f6-48a3-a66c-958e50c92e7c"
+            }
+          },
+          "id": 23,
+          "modulename": [
+            "Thrusters",
+            "Engines"
+          ],
+          "name": "Reinforced",
+          "grade": 5,
+          "special": {
+            "name": "Drive Distributors",
+            "id": 115,
+            "edname": "special_engine_haulage",
+            "uuid": "bd3c1991-370e-4b9d-b8cd-d5dec3260647"
+          }
+        }
+      },
+      "frameShiftDrive": {
+        "class": 6,
+        "rating": "B",
+        "enabled": true,
+        "priority": 3,
+        "modifications": {
+          "integrity": -1500,
+          "mass": 3000,
+          "optmass": 5500,
+          "power": 1500
+        },
+        "blueprint": {
+          "fdname": "FSD_LongRange",
+          "grades": {
+            "1": {
+              "components": {
+                "Atypical Disrupted Wake Echoes": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.03,
+                  -0.03
+                ],
+                "mass": [
+                  0.1,
+                  0.1
+                ],
+                "optmass": [
+                  0,
+                  0.15
+                ],
+                "power": [
+                  0.03,
+                  0.03
+                ]
+              },
+              "uuid": "bb67b1a2-7a5b-47bc-8ed8-e949b5e3fb16"
+            },
+            "2": {
+              "components": {
+                "Atypical Disrupted Wake Echoes": 1,
+                "Chemical Processors": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.06,
+                  -0.06
+                ],
+                "mass": [
+                  0.15,
+                  0.15
+                ],
+                "optmass": [
+                  0.15,
+                  0.25
+                ],
+                "power": [
+                  0.06,
+                  0.06
+                ]
+              },
+              "uuid": "74045351-f348-45f5-8798-487211f19520"
+            },
+            "3": {
+              "components": {
+                "Chemical Processors": 1,
+                "Phosphorus": 1,
+                "Strange Wake Solutions": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.09,
+                  -0.09
+                ],
+                "mass": [
+                  0.2,
+                  0.2
+                ],
+                "optmass": [
+                  0.25,
+                  0.35
+                ],
+                "power": [
+                  0.09,
+                  0.09
+                ]
+              },
+              "uuid": "cf196bb9-55a1-457f-893b-84ff2afd4db9"
+            },
+            "4": {
+              "components": {
+                "Chemical Distillery": 1,
+                "Eccentric Hyperspace Trajectories": 1,
+                "Manganese": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.12,
+                  -0.12
+                ],
+                "mass": [
+                  0.25,
+                  0.25
+                ],
+                "optmass": [
+                  0.35,
+                  0.45
+                ],
+                "power": [
+                  0.12,
+                  0.12
+                ]
+              },
+              "uuid": "ecf49fec-32fd-4930-949d-a341bf0fd00c"
+            },
+            "5": {
+              "components": {
+                "Arsenic": 1,
+                "Chemical Manipulators": 1,
+                "Datamined Wake Exceptions": 1
+              },
+              "features": {
+                "integrity": [
+                  -0.15,
+                  -0.15
+                ],
+                "mass": [
+                  0.3,
+                  0.3
+                ],
+                "optmass": [
+                  0.45,
+                  0.55
+                ],
+                "power": [
+                  0.15,
+                  0.15
+                ]
+              },
+              "uuid": "dddd4fd3-bc9a-4c5b-8606-853c63d0f554"
+            }
+          },
+          "id": 26,
+          "modulename": [
+            "Frame shift drive",
+            "FSD"
+          ],
+          "name": "Increased range",
+          "grade": 5,
+          "special": {
+            "name": "Mass Manager",
+            "id": 120,
+            "edname": "special_fsd_heavy",
+            "uuid": "4d7d30c3-970b-4c6e-a507-89ac7e6441bd"
+          }
+        }
+      },
+      "lifeSupport": {
+        "class": 5,
+        "rating": "B",
+        "enabled": true,
+        "priority": 1
+      },
+      "powerDistributor": {
+        "class": 6,
+        "rating": "B",
+        "enabled": true,
+        "priority": 1,
+        "modifications": {
+          "engcap": -1500,
+          "engrate": -500,
+          "syscap": 6000,
+          "sysrate": 4400,
+          "wepcap": -1500,
+          "weprate": -1500
+        },
+        "blueprint": {
+          "fdname": "PowerDistributor_PrioritySystems",
+          "grades": {
+            "1": {
+              "components": {
+                "Sulphur": 1
+              },
+              "features": {
+                "engcap": [
+                  -0.03,
+                  -0.03
+                ],
+                "engrate": [
+                  -0.01,
+                  -0.01
+                ],
+                "syscap": [
+                  0,
+                  0.2
+                ],
+                "sysrate": [
+                  0,
+                  0.16
+                ],
+                "wepcap": [
+                  -0.03,
+                  -0.03
+                ],
+                "weprate": [
+                  -0.03,
+                  -0.03
+                ]
+              },
+              "uuid": "8138ba35-155d-4b82-86ef-ad4600ab5e03"
+            },
+            "2": {
+              "components": {
+                "Conductive Components": 1,
+                "Sulphur": 1
+              },
+              "features": {
+                "engcap": [
+                  -0.06,
+                  -0.06
+                ],
+                "engrate": [
+                  -0.02,
+                  -0.02
+                ],
+                "syscap": [
+                  0.2,
+                  0.3
+                ],
+                "sysrate": [
+                  0.16,
+                  0.23
+                ],
+                "wepcap": [
+                  -0.06,
+                  -0.06
+                ],
+                "weprate": [
+                  -0.06,
+                  -0.06
+                ]
+              },
+              "uuid": "91c79b1b-b494-4dd9-98c4-10d58aa5509f"
+            },
+            "3": {
+              "components": {
+                "Anomalous Bulk Scan Data": 1,
+                "Chromium": 1,
+                "Electrochemical Arrays": 1
+              },
+              "features": {
+                "engcap": [
+                  -0.09,
+                  -0.09
+                ],
+                "engrate": [
+                  -0.03,
+                  -0.03
+                ],
+                "syscap": [
+                  0.3,
+                  0.4
+                ],
+                "sysrate": [
+                  0.23,
+                  0.3
+                ],
+                "wepcap": [
+                  -0.09,
+                  -0.09
+                ],
+                "weprate": [
+                  -0.09,
+                  -0.09
+                ]
+              },
+              "uuid": "13ab16c7-2456-4387-b536-b28fd2f57d2e"
+            },
+            "4": {
+              "components": {
+                "Unidentified Scan Archives": 1,
+                "Selenium": 1,
+                "Polymer Capacitors": 1
+              },
+              "features": {
+                "engcap": [
+                  -0.12,
+                  -0.12
+                ],
+                "engrate": [
+                  -0.04,
+                  -0.04
+                ],
+                "syscap": [
+                  0.4,
+                  0.5
+                ],
+                "sysrate": [
+                  0.3,
+                  0.37
+                ],
+                "wepcap": [
+                  -0.12,
+                  -0.12
+                ],
+                "weprate": [
+                  -0.12,
+                  -0.12
+                ]
+              },
+              "uuid": "544e6d6b-be89-478d-9b1b-62fae7599d30"
+            },
+            "5": {
+              "components": {
+                "Classified Scan Databanks": 1,
+                "Cadmium": 1,
+                "Military Supercapacitors": 1
+              },
+              "features": {
+                "engcap": [
+                  -0.15,
+                  -0.15
+                ],
+                "engrate": [
+                  -0.05,
+                  -0.05
+                ],
+                "syscap": [
+                  0.5,
+                  0.6
+                ],
+                "sysrate": [
+                  0.37,
+                  0.44
+                ],
+                "wepcap": [
+                  -0.15,
+                  -0.15
+                ],
+                "weprate": [
+                  -0.15,
+                  -0.15
+                ]
+              },
+              "uuid": "892dcc86-a720-4fda-96cd-cb0245305764"
+            }
+          },
+          "id": 59,
+          "modulename": [
+            "Power distributor",
+            "Distributor"
+          ],
+          "name": "System focused",
+          "grade": 5,
+          "special": {
+            "name": "Super Conduits",
+            "id": 129,
+            "edname": "special_powerdistributor_fast",
+            "uuid": "b5bb35a1-e851-4d37-8f26-8fe828f84c95"
+          }
+        }
+      },
+      "sensors": {
+        "class": 4,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1
+      },
+      "fuelTank": {
+        "class": 6,
+        "rating": "C",
+        "enabled": true,
+        "priority": 1
+      }
+    },
+    "hardpoints": [
+      {
+        "class": 2,
+        "rating": "F",
+        "enabled": true,
+        "priority": 1,
+        "group": "Pulse Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 2,
+        "rating": "F",
+        "enabled": true,
+        "priority": 1,
+        "group": "Pulse Laser",
+        "mount": "Turret"
+      },
+      {
+        "class": 2,
+        "rating": "F",
+        "enabled": true,
+        "priority": 2,
+        "group": "Multi-cannon",
+        "mount": "Turret"
+      },
+      {
+        "class": 1,
+        "rating": "G",
+        "enabled": true,
+        "priority": 2,
+        "group": "Multi-cannon",
+        "mount": "Turret"
+      },
+      {
+        "class": 1,
+        "rating": "G",
+        "enabled": true,
+        "priority": 2,
+        "group": "Multi-cannon",
+        "mount": "Turret"
+      }
+    ],
+    "utility": [
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 3,
+        "group": "Heat Sink Launcher",
+        "name": "Heat Sink Launcher"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 2,
+        "group": "Point Defence",
+        "name": "Point Defence"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 2,
+        "group": "Point Defence",
+        "name": "Point Defence"
+      },
+      {
+        "class": 0,
+        "rating": "I",
+        "enabled": true,
+        "priority": 2,
+        "group": "Point Defence",
+        "name": "Point Defence"
+      }
+    ],
+    "internal": [
+      {
+        "class": 8,
+        "rating": "E",
+        "enabled": true,
+        "priority": 2,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 8,
+        "rating": "E",
+        "enabled": true,
+        "priority": 2,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 7,
+        "rating": "E",
+        "enabled": true,
+        "priority": 3,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 6,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Prismatic Shield Generator"
+      },
+      {
+        "class": 5,
+        "rating": "D",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fighter Hangar"
+      },
+      {
+        "class": 4,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 4,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 3,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 3,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Cargo Rack"
+      },
+      {
+        "class": 2,
+        "rating": "A",
+        "enabled": true,
+        "priority": 1,
+        "group": "Fuel Scoop"
+      },
+      {
+        "class": 1,
+        "rating": "E",
+        "enabled": true,
+        "priority": 1,
+        "group": "Supercruise Assist",
+        "name": "Supercruise Assist"
+      }
+    ]
+  },
+  "stats": {
+    "class": 3,
+    "hullCost": 72076730,
+    "speed": 130,
+    "boost": 200,
+    "boostEnergy": 19,
+    "heatCapacity": 289,
+    "baseShieldStrength": 240,
+    "baseArmour": 480,
+    "hardness": 65,
+    "hullMass": 850,
+    "masslock": 16,
+    "pipSpeed": 0.17,
+    "fighterHangars": 1,
+    "pitch": 20,
+    "roll": 20,
+    "yaw": 8,
+    "crew": 3,
+    "reserveFuelCapacity": 0.77,
+    "moduleCostMultiplier": 1,
+    "fuelCapacity": 64,
+    "cargoCapacity": 688,
+    "passengerCapacity": 0,
+    "ladenMass": 2096,
+    "armour": 864,
+    "shield": 277.53,
+    "shieldCells": 0,
+    "totalCost": 138063815,
+    "unladenMass": 1344,
+    "totalDpe": 69.26,
+    "totalAbsDpe": 0,
+    "totalExplDpe": 0,
+    "totalKinDpe": 56.83,
+    "totalThermDpe": 12.42,
+    "totalDps": 27.74,
+    "totalAbsDps": 0,
+    "totalExplDps": 0,
+    "totalKinDps": 15.31,
+    "totalThermDps": 12.42,
+    "totalSDps": 24.22,
+    "totalAbsSDps": 0,
+    "totalExplSDps": 0,
+    "totalKinSDps": 11.8,
+    "totalThermSDps": 12.42,
+    "totalEps": 2.8,
+    "totalHps": 3.13,
+    "shieldExplRes": 0.5,
+    "shieldKinRes": 0.4,
+    "shieldThermRes": -0.2,
+    "hullExplRes": -0.4,
+    "hullKinRes": -0.2,
+    "hullThermRes": 0,
+    "powerAvailable": 23.1,
+    "powerRetracted": 19.77,
+    "powerDeployed": 21.95,
+    "unladenRange": 21.73,
+    "fullTankRange": 20.85,
+    "ladenRange": 14.01,
+    "unladenFastestRange": 210.18,
+    "ladenFastestRange": 140.23,
+    "maxJumpCount": 10,
+    "modulearmour": 0,
+    "moduleprotection": 0,
+    "hullCausRes": 0,
+    "topSpeed": 141.36,
+    "topBoost": 217.47,
+    "topPitch": 21.75,
+    "topRoll": 21.75,
+    "topYaw": 8.7
+  }
+}
